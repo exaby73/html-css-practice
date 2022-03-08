@@ -1,0 +1,26 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Make body occupy the entire screen */
+body {
+  height: 100vh;
+}
+
+.half {
+  height: 50%;
+  width: 100%;
+  display: flex;
+}
+
+.red {
+  background-color: red;
+  flex-grow: 1;
+}
+
+.blue {
+  background-color: blue;
+  flex-grow: 1;
+}
